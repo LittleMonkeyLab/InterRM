@@ -18,3 +18,63 @@ content
 more content
 
 {{< revealjs file="https://littlemonkeylab.github.io/slides/" height="500px" class="ratio ratio-16x9" >}}
+
+```{r}
+library(papaja)
+
+# Simulated data
+CBT <- c(23, 19, 21, 22, 20, 24, 25, 18, 22, 23)
+Placebo <- c(30, 28, 27, 29, 31, 32, 33, 30, 29, 28)
+
+# Combine into a data frame
+data <- data.frame(
+  group = factor(rep(c("CBT", "Placebo"), each = 10)),
+  anxiety = c(CBT, Placebo)
+)
+
+
+# Example: t-test in APA format
+t_test_results <- t.test(anxiety ~ group, data = data)
+
+# Use apa_print to format the output
+apa_output <- apa_print(t_test_results)
+print(apa_output)
+
+```
+
+```{r}
+library(report)
+
+# Example: t-test in APA format
+t_test_results <- t.test(anxiety ~ group, data = data)
+
+# Generate the report
+report_output <- report(t_test_results)
+print(report_output)
+
+```
+
+```{r}
+apa.2way.table(iv1=a,iv2=b,dv=dv,data=fidler_thompson,landscape=TRUE, filename="ex2_desc_table.doc")
+```
+
+```{r}
+g <- fidler_thompson
+
+```
+
+-   Inert code block with annotation comment and comment.
+
+    ``` r
+    stats::rnorm(1) # <1>
+    ```
+
+    1.  Dummy code annotation `stats::rnorm(1)`.
+
+-   Computational code block with annotation comment and comment.
+
+    ```{r}
+    stats::rnorm(2) # <1>
+    ```
+
+    1.  Dummy code annotation `stats::rnorm(2)`.

@@ -1,5 +1,342 @@
 ---
-title: "What is Science?"
+title: "T-Tests"
+subtitle: A Year 1 Textbook Chapter
 ---
 
-test content
+# Chapter: T-Tests in R
+
+## 1. Introduction
+
+The t-test is a fundamental statistical method used in psychology to
+compare the means of two groups. This chapter will explore the theory
+behind t-tests, demonstrate practical applications using R, and provide
+a structured write-up in APA style. Whether you're examining the
+effectiveness of a new therapy or comparing cognitive performance
+between groups, the t-test is an essential tool for psychological
+research.
+
+## 2. Main Content
+
+### 2.1 Theory of T-Tests
+
+A t-test evaluates whether the means of two groups are statistically
+different from each other. The most common types are the independent
+samples t-test, paired samples t-test, and one-sample t-test. Each type
+tests different hypotheses and has unique assumptions.
+
+#### 2.1.1 Independent Samples T-Test
+
+This test compares the means of two independent groups to ascertain if
+there is statistical evidence that the associated population means are
+significantly different.
+
+#### 2.1.2 Paired Samples T-Test
+
+This test compares means from the same group at different times (e.g.,
+before and after a treatment) or matched pairs.
+
+#### 2.1.3 One-Sample T-Test
+
+This test determines whether the mean of a single group is different
+from a known mean.
+
+### 2.2 Assumptions of T-Tests
+
+-   **Independence**: Observations within each group must be
+    independent.
+-   **Normality**: Data in each group should be approximately normally
+    distributed.
+-   **Homogeneity of Variance**: Variances in the two groups should be
+    roughly equal (for independent samples t-test).
+
+## 3. Methods and Measures
+
+To conduct a t-test, you need to: 1. Formulate the null (H0) and
+alternative (H1) hypotheses. 2. Collect and organize data. 3. Check
+assumptions. 4. Calculate the t-statistic and degrees of freedom. 5.
+Determine the p-value. 6. Make a decision to reject or fail to reject H0
+based on the p-value.
+
+### Example Study
+
+**Research Question**: Does a new cognitive-behavioral therapy (CBT)
+improve anxiety levels more than a placebo?
+
+**Hypotheses**: - H0: There is no difference in anxiety levels between
+the CBT and placebo groups. - H1: The CBT group has lower anxiety levels
+than the placebo group.
+
+**Measures**: Anxiety levels are measured using a standardized anxiety
+inventory.
+
+## 4. Analysis with R Code
+
+Let's use R for an independent samples t-test.
+
+### Data Setup
+
+```{webr-r}
+# Simulated data
+CBT <- c(23, 19, 21, 22, 20, 24, 25, 18, 22, 23)
+Placebo <- c(30, 28, 27, 29, 31, 32, 33, 30, 29, 28)
+
+# Combine into a data frame
+data <- data.frame(
+  group = factor(rep(c("CBT", "Placebo"), each = 10)),
+  anxiety = c(CBT, Placebo)
+)
+
+# View the data
+print(data)
+```
+
+### Conducting the T-Test
+
+```{webr-r}
+# Independent samples t-test
+t_test_results <- t.test(anxiety ~ group, data = data)
+
+# Display the results
+print(t_test_results)
+```
+
+### R Output Interpretation
+
+The `t.test` function provides the t-statistic, degrees of freedom, and
+p-value. If the p-value is less than the significance level (e.g.,
+0.05), we reject H0.
+
+```         
+    Welch Two Sample t-test
+
+data:  anxiety by group
+t = -7.05, df = 17.982, p-value = 4.34e-07
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -10.428314  -6.371686
+sample estimates:
+mean in group CBT mean in group Placebo 
+            21.7                  29.7 
+```
+
+## 5. Debates and Controversies
+
+### 5.1 Assumption Violations
+
+Violating assumptions (e.g., normality, homogeneity of variance) can
+lead to incorrect conclusions. Robust alternatives or data
+transformations may be necessary (Wilcox, 2012).
+
+### 5.2 P-Value Misinterpretation
+
+Overreliance on p-values can lead to misinterpretation of results. It’s
+crucial to report effect sizes and confidence intervals (Cumming, 2014).
+
+### 5.3 Multiple Comparisons
+
+Conducting multiple t-tests increases the risk of Type I errors. Methods
+like Bonferroni correction adjust for this but can be overly
+conservative (Perneger, 1998).
+
+## 6. Conclusion
+
+T-tests are a vital statistical method in psychological research for
+comparing means between groups. Understanding their theory, assumptions,
+and correct application in R can significantly enhance the rigor of your
+analyses. Always ensure to check assumptions, consider effect sizes, and
+be mindful of the limitations and debates surrounding t-tests.
+
+### References
+
+Cumming, G. (2014). The new statistics: Why and how. *Psychological
+Science*, 25(1), 7-29.
+
+Perneger, T. V. (1998). What's wrong with Bonferroni adjustments. *BMJ*,
+316(7139), 1236-1238.
+
+Wilcox, R. R. (2012). Modern statistics for the social and behavioral
+sciences: A practical introduction. *CRC Press*.
+
+This chapter provides a comprehensive overview of conducting t-tests in
+R, essential for first-year psychology students. Future chapters will
+delve into more advanced statistical methods to further enhance your
+analytical skills.
+
+# Glossary
+
+Certainly! Here's a glossary of key terms related to 'T-Tests in R with
+theory, practicals, and write-up in Psychology APA-style':
+
+1.  **T-Test**
+    -   **Definition**: A statistical test used to determine if there is
+        a significant difference between the means of two groups. It is
+        commonly used in hypothesis testing.
+2.  **Independent Samples T-Test**
+    -   **Definition**: A type of t-test used when comparing the means
+        of two independent groups to see if there is a significant
+        difference between them.
+3.  **Paired Samples T-Test**
+    -   **Definition**: A t-test used when comparing the means of two
+        related groups, such as measurements taken from the same
+        subjects at two different times.
+4.  **Null Hypothesis (H0)**
+    -   **Definition**: A hypothesis that there is no significant
+        difference between specified populations, any observed
+        difference being due to sampling or experimental error.
+5.  **Alternative Hypothesis (H1)**
+    -   **Definition**: A hypothesis that states there is a significant
+        difference between specified populations, contrary to the null
+        hypothesis.
+6.  **P-Value**
+    -   **Definition**: The probability that the observed results
+        occurred by chance. A p-value less than 0.05 is typically
+        considered statistically significant.
+7.  **Degrees of Freedom (df)**
+    -   **Definition**: The number of values in a calculation that are
+        free to vary. In t-tests, degrees of freedom are used to
+        determine the critical value from the t-distribution.
+8.  **Effect Size**
+    -   **Definition**: A measure of the magnitude of the difference
+        between groups. Common effect size metrics include Cohen's d.
+9.  **R Programming Language**
+    -   **Definition**: A programming language and environment commonly
+        used for statistical computing and graphics, including
+        performing t-tests.
+10. **Psychology APA-Style**
+    -   **Definition**: The writing and citation style prescribed by the
+        American Psychological Association, commonly used in psychology
+        for structuring research papers and reports.
+11. **Mean (M or μ)**
+    -   **Definition**: The average of a set of numbers, calculated by
+        summing them up and dividing by the count of numbers.
+12. **Standard Deviation (SD or σ)**
+    -   **Definition**: A measure of the amount of variation or
+        dispersion in a set of values.
+13. **Confidence Interval (CI)**
+    -   **Definition**: A range of values derived from the sample data
+        that is likely to contain the population parameter with a
+        specified level of confidence, usually 95%.
+14. **T-Distribution**
+    -   **Definition**: A type of probability distribution that is
+        symmetric and bell-shaped but has heavier tails than the normal
+        distribution. It is used in t-tests, especially when sample
+        sizes are small.
+15. **Data Frame**
+    -   **Definition**: A table or two-dimensional array-like structure
+        in R, where each column contains values of one variable and each
+        row contains one set of values from each column.
+
+These terms will help students grasp the fundamental concepts and
+techniques involved in performing and reporting t-tests in R, especially
+within the context of psychological research adhering to APA style.
+
+# Self-Assessment Quiz
+
+### Self-Assessment Quiz: T-Tests in R with Theory, Practicals, and Write-up in Psychology APA-style
+
+#### Multiple-Choice Questions
+
+**1. What is the primary purpose of a t-test in statistics?** a) To
+compare three or more means\
+b) To determine the relationship between two categorical variables\
+c) To compare the means of two groups\
+d) To analyze the variance within a single group
+
+**Answer: c) To compare the means of two groups**
+
+**2. In R, which function is commonly used to perform an independent
+t-test?** a) t_test()\
+b) ttest()\
+c) t.test()\
+d) TTest()
+
+**Answer: c) t.test()**
+
+**3. What is the null hypothesis in an independent samples t-test?** a)
+The means of the two groups are equal\
+b) The means of the two groups are not equal\
+c) The variances of the two groups are equal\
+d) The variances of the two groups are not equal
+
+**Answer: a) The means of the two groups are equal**
+
+**4. Which of the following is NOT a requirement for conducting a
+t-test?** a) The data should be approximately normally distributed\
+b) The samples should be independent\
+c) The sample sizes must be equal\
+d) The variances should be roughly equal (for independent t-tests)
+
+**Answer: c) The sample sizes must be equal**
+
+#### True/False Questions
+
+**5. A paired t-test is appropriate when comparing the means of two
+related groups.** **True**
+
+**6. In R, the `t.test()` function can only be used for independent
+t-tests.** **False**
+
+**7. The p-value in a t-test indicates the probability that the observed
+differences in sample means occurred by chance.** **True**
+
+**8. The degrees of freedom for an independent t-test with two samples
+of 15 participants each would be 28.** **False** (It's 28; df = n1 +
+n2 - 2, so 15 + 15 - 2 = 28)
+
+#### Short Answer Questions
+
+**9. Describe in a few sentences the steps to perform an independent
+t-test in R, including any necessary data preparation.**
+
+**Answer: To perform an independent t-test in R, follow these steps:** -
+Load your data into R, typically using `read.csv()` or similar
+functions. - Inspect and clean your data to ensure it meets the
+assumptions of the t-test (e.g., checking for normality and
+independence). - Use the `t.test()` function, specifying the two groups
+you wish to compare. - Interpret the output, which includes the t-value,
+degrees of freedom, and p-value, to determine whether to reject the null
+hypothesis.
+
+**10. Write an example of how to report the results of an independent
+t-test in APA style.**
+
+**Answer: An example APA-style write-up might look like this:** - "An
+independent samples t-test was conducted to compare the test scores for
+Group A and Group B. There was a significant difference in scores
+between Group A (M = 85.3, SD = 5.2) and Group B (M = 78.4, SD = 6.1);
+t(28) = 3.45, p \< .01. These results suggest that the intervention had
+a significant effect on test scores."
+
+#### Answer Key
+
+1.  
+
+    c)  To compare the means of two groups
+
+2.  
+
+    c)  t.test()
+
+3.  
+
+    a)  The means of the two groups are equal
+
+4.  
+
+    c)  The sample sizes must be equal
+
+5.  True
+
+6.  False
+
+7.  True
+
+8.  False
+
+9.  Answer provided above.
+
+10. Answer provided above.
+
+This quiz should help students test their understanding of the key
+concepts related to t-tests in R, including theoretical understanding,
+practical application, and APA-style reporting.

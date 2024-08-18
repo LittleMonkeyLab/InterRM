@@ -154,6 +154,7 @@ execute:
 format:
   html:
     code-overflow: wrap
+    engine: knitr
     code-line-numbers: false
     code-copy: hover
     theme:
@@ -173,3 +174,5 @@ comments:
     focus:
       user:
         username: drdeception
+filters:
+  - webr

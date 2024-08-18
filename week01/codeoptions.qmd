@@ -107,5 +107,8 @@ raw file with size options
 
 url with ""
 {{< pdf "https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf" >}}
+<<<<<<< HEAD
 
 {{< pdf "https://interrm.littlemonkeylab.com/week01/data/dummypdf.pdf" >}}
+=======
+>>>>>>> 945ad51f57d64470c9643cb73b8bd6151555b866

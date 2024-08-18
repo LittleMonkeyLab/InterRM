@@ -377,7 +377,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"id":1,"options":{"label":"unnamed-chunk-1","fig-height":"4.3","output":"true","editor-word-wrap":"true","fig-width":"7","out-height":"","editor-font-scale":"0.8","out-width":"100%","autorun":"false","results":"markup","warning":"true","editor-quick-suggestions":"false","dpi":72,"read-only":"false","context":"interactive","message":"true","comment":"","classes":"","fig-cap":"","editor-max-height":""},"code":"gapminder_filtered <- gapminder |>\n  filter(year == 2007)\n\nggplot(data = gapminder_filtered,\n       mapping = aes(x = gdpPercap, y = lifeExp, \n                     size = pop, color = continent)) +\n  geom_point() + \n  scale_x_log10(labels = scales::dollar_format(accuracy = 1)) +\n  scale_size_continuous(labels = scales::label_comma()) +\n  scale_color_viridis_d(option = \"plasma\") +\n  labs(x = \"GDP per capita\", y = \"Life expectancy\",\n       title = \"Health and wealth are strongly related\",\n       subtitle = \"142 countries; 2007 only\", caption = \"Source: The Gapminder Project\",\n       color = \"Continent\", size = \"Population\") +\n  theme_bw()"}];
+globalThis.qwebrCellDetails = [{"id":1,"options":{"read-only":"false","results":"markup","editor-word-wrap":"true","label":"unnamed-chunk-1","fig-height":"4.3","editor-font-scale":"0.8","message":"true","editor-max-height":"","out-height":"","output":"true","out-width":"100%","dpi":72,"editor-quick-suggestions":"false","warning":"true","fig-cap":"","context":"interactive","classes":"","fig-width":"7","autorun":"false","comment":""},"code":"gapminder_filtered <- gapminder |>\n  filter(year == 2007)\n\nggplot(data = gapminder_filtered,\n       mapping = aes(x = gdpPercap, y = lifeExp, \n                     size = pop, color = continent)) +\n  geom_point() + \n  scale_x_log10(labels = scales::dollar_format(accuracy = 1)) +\n  scale_size_continuous(labels = scales::label_comma()) +\n  scale_color_viridis_d(option = \"plasma\") +\n  labs(x = \"GDP per capita\", y = \"Life expectancy\",\n       title = \"Health and wealth are strongly related\",\n       subtitle = \"142 countries; 2007 only\", caption = \"Source: The Gapminder Project\",\n       color = \"Continent\", size = \"Population\") +\n  theme_bw()"}];
 
 </script>
 <script type="module">
@@ -1736,7 +1736,7 @@ globalThis.qwebrExecuteCode = async function (
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week01/chapter.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">What is Science?</span></a>
+ <span class="menu-text">T-Tests</span></a>
   </div>
 </li>
           <li class="sidebar-item">

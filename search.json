@@ -82,14 +82,92 @@
   {
     "objectID": "week01/chapter.html",
     "href": "week01/chapter.html",
-    "title": "What is Science?",
+    "title": "T-Tests",
     "section": "",
-    "text": "test content",
+    "text": "The t-test is a fundamental statistical method used in psychology to compare the means of two groups. This chapter will explore the theory behind t-tests, demonstrate practical applications using R, and provide a structured write-up in APA style. Whether you’re examining the effectiveness of a new therapy or comparing cognitive performance between groups, the t-test is an essential tool for psychological research.\n\n\n\n\n\nA t-test evaluates whether the means of two groups are statistically different from each other. The most common types are the independent samples t-test, paired samples t-test, and one-sample t-test. Each type tests different hypotheses and has unique assumptions.\n\n\nThis test compares the means of two independent groups to ascertain if there is statistical evidence that the associated population means are significantly different.\n\n\n\nThis test compares means from the same group at different times (e.g., before and after a treatment) or matched pairs.\n\n\n\nThis test determines whether the mean of a single group is different from a known mean.\n\n\n\n\n\nIndependence: Observations within each group must be independent.\nNormality: Data in each group should be approximately normally distributed.\nHomogeneity of Variance: Variances in the two groups should be roughly equal (for independent samples t-test).\n\n\n\n\n\nTo conduct a t-test, you need to: 1. Formulate the null (H0) and alternative (H1) hypotheses. 2. Collect and organize data. 3. Check assumptions. 4. Calculate the t-statistic and degrees of freedom. 5. Determine the p-value. 6. Make a decision to reject or fail to reject H0 based on the p-value.\n\n\nResearch Question: Does a new cognitive-behavioral therapy (CBT) improve anxiety levels more than a placebo?\nHypotheses: - H0: There is no difference in anxiety levels between the CBT and placebo groups. - H1: The CBT group has lower anxiety levels than the placebo group.\nMeasures: Anxiety levels are measured using a standardized anxiety inventory.\n\n\n\n\nLet’s use R for an independent samples t-test.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nThe t.test function provides the t-statistic, degrees of freedom, and p-value. If the p-value is less than the significance level (e.g., 0.05), we reject H0.\n    Welch Two Sample t-test\n\ndata:  anxiety by group\nt = -7.05, df = 17.982, p-value = 4.34e-07\nalternative hypothesis: true difference in means is not equal to 0\n95 percent confidence interval:\n -10.428314  -6.371686\nsample estimates:\nmean in group CBT mean in group Placebo \n            21.7                  29.7 \n\n\n\n\n\n\nViolating assumptions (e.g., normality, homogeneity of variance) can lead to incorrect conclusions. Robust alternatives or data transformations may be necessary (Wilcox, 2012).\n\n\n\nOverreliance on p-values can lead to misinterpretation of results. It’s crucial to report effect sizes and confidence intervals (Cumming, 2014).\n\n\n\nConducting multiple t-tests increases the risk of Type I errors. Methods like Bonferroni correction adjust for this but can be overly conservative (Perneger, 1998).\n\n\n\n\nT-tests are a vital statistical method in psychological research for comparing means between groups. Understanding their theory, assumptions, and correct application in R can significantly enhance the rigor of your analyses. Always ensure to check assumptions, consider effect sizes, and be mindful of the limitations and debates surrounding t-tests.\n\n\nCumming, G. (2014). The new statistics: Why and how. Psychological Science, 25(1), 7-29.\nPerneger, T. V. (1998). What’s wrong with Bonferroni adjustments. BMJ, 316(7139), 1236-1238.\nWilcox, R. R. (2012). Modern statistics for the social and behavioral sciences: A practical introduction. CRC Press.\nThis chapter provides a comprehensive overview of conducting t-tests in R, essential for first-year psychology students. Future chapters will delve into more advanced statistical methods to further enhance your analytical skills.",
     "crumbs": [
       "Schedule",
       "Course Content",
       "Week 01 - Intro",
-      "What is Science?"
+      "T-Tests"
+    ]
+  },
+  {
+    "objectID": "week01/chapter.html#introduction",
+    "href": "week01/chapter.html#introduction",
+    "title": "T-Tests",
+    "section": "",
+    "text": "The t-test is a fundamental statistical method used in psychology to compare the means of two groups. This chapter will explore the theory behind t-tests, demonstrate practical applications using R, and provide a structured write-up in APA style. Whether you’re examining the effectiveness of a new therapy or comparing cognitive performance between groups, the t-test is an essential tool for psychological research.",
+    "crumbs": [
+      "Schedule",
+      "Course Content",
+      "Week 01 - Intro",
+      "T-Tests"
+    ]
+  },
+  {
+    "objectID": "week01/chapter.html#main-content",
+    "href": "week01/chapter.html#main-content",
+    "title": "T-Tests",
+    "section": "",
+    "text": "A t-test evaluates whether the means of two groups are statistically different from each other. The most common types are the independent samples t-test, paired samples t-test, and one-sample t-test. Each type tests different hypotheses and has unique assumptions.\n\n\nThis test compares the means of two independent groups to ascertain if there is statistical evidence that the associated population means are significantly different.\n\n\n\nThis test compares means from the same group at different times (e.g., before and after a treatment) or matched pairs.\n\n\n\nThis test determines whether the mean of a single group is different from a known mean.\n\n\n\n\n\nIndependence: Observations within each group must be independent.\nNormality: Data in each group should be approximately normally distributed.\nHomogeneity of Variance: Variances in the two groups should be roughly equal (for independent samples t-test).",
+    "crumbs": [
+      "Schedule",
+      "Course Content",
+      "Week 01 - Intro",
+      "T-Tests"
+    ]
+  },
+  {
+    "objectID": "week01/chapter.html#methods-and-measures",
+    "href": "week01/chapter.html#methods-and-measures",
+    "title": "T-Tests",
+    "section": "",
+    "text": "To conduct a t-test, you need to: 1. Formulate the null (H0) and alternative (H1) hypotheses. 2. Collect and organize data. 3. Check assumptions. 4. Calculate the t-statistic and degrees of freedom. 5. Determine the p-value. 6. Make a decision to reject or fail to reject H0 based on the p-value.\n\n\nResearch Question: Does a new cognitive-behavioral therapy (CBT) improve anxiety levels more than a placebo?\nHypotheses: - H0: There is no difference in anxiety levels between the CBT and placebo groups. - H1: The CBT group has lower anxiety levels than the placebo group.\nMeasures: Anxiety levels are measured using a standardized anxiety inventory.",
+    "crumbs": [
+      "Schedule",
+      "Course Content",
+      "Week 01 - Intro",
+      "T-Tests"
+    ]
+  },
+  {
+    "objectID": "week01/chapter.html#analysis-with-r-code",
+    "href": "week01/chapter.html#analysis-with-r-code",
+    "title": "T-Tests",
+    "section": "",
+    "text": "Let’s use R for an independent samples t-test.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nThe t.test function provides the t-statistic, degrees of freedom, and p-value. If the p-value is less than the significance level (e.g., 0.05), we reject H0.\n    Welch Two Sample t-test\n\ndata:  anxiety by group\nt = -7.05, df = 17.982, p-value = 4.34e-07\nalternative hypothesis: true difference in means is not equal to 0\n95 percent confidence interval:\n -10.428314  -6.371686\nsample estimates:\nmean in group CBT mean in group Placebo \n            21.7                  29.7",
+    "crumbs": [
+      "Schedule",
+      "Course Content",
+      "Week 01 - Intro",
+      "T-Tests"
+    ]
+  },
+  {
+    "objectID": "week01/chapter.html#debates-and-controversies",
+    "href": "week01/chapter.html#debates-and-controversies",
+    "title": "T-Tests",
+    "section": "",
+    "text": "Violating assumptions (e.g., normality, homogeneity of variance) can lead to incorrect conclusions. Robust alternatives or data transformations may be necessary (Wilcox, 2012).\n\n\n\nOverreliance on p-values can lead to misinterpretation of results. It’s crucial to report effect sizes and confidence intervals (Cumming, 2014).\n\n\n\nConducting multiple t-tests increases the risk of Type I errors. Methods like Bonferroni correction adjust for this but can be overly conservative (Perneger, 1998).",
+    "crumbs": [
+      "Schedule",
+      "Course Content",
+      "Week 01 - Intro",
+      "T-Tests"
+    ]
+  },
+  {
+    "objectID": "week01/chapter.html#conclusion",
+    "href": "week01/chapter.html#conclusion",
+    "title": "T-Tests",
+    "section": "",
+    "text": "T-tests are a vital statistical method in psychological research for comparing means between groups. Understanding their theory, assumptions, and correct application in R can significantly enhance the rigor of your analyses. Always ensure to check assumptions, consider effect sizes, and be mindful of the limitations and debates surrounding t-tests.\n\n\nCumming, G. (2014). The new statistics: Why and how. Psychological Science, 25(1), 7-29.\nPerneger, T. V. (1998). What’s wrong with Bonferroni adjustments. BMJ, 316(7139), 1236-1238.\nWilcox, R. R. (2012). Modern statistics for the social and behavioral sciences: A practical introduction. CRC Press.\nThis chapter provides a comprehensive overview of conducting t-tests in R, essential for first-year psychology students. Future chapters will delve into more advanced statistical methods to further enhance your analytical skills.",
+    "crumbs": [
+      "Schedule",
+      "Course Content",
+      "Week 01 - Intro",
+      "T-Tests"
     ]
   },
   {

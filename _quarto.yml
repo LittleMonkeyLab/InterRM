@@ -175,4 +175,5 @@ comments:
       user:
         username: drdeception
 filters:
+  - panelize
   - webr

@@ -30,7 +30,11 @@
   </url>
   <url>
     <loc>http://interrm.littlemonkeylab.com/index.html</loc>
-    <lastmod>2024-08-17T17:13:30.158Z</lastmod>
+    <lastmod>2024-09-11T12:39:14.530Z</lastmod>
+  </url>
+  <url>
+    <loc>http://interrm.littlemonkeylab.com/CHIP/overview.html</loc>
+    <lastmod>2024-09-11T12:04:14.103Z</lastmod>
   </url>
   <url>
     <loc>http://interrm.littlemonkeylab.com/week00/lab 2.html</loc>
@@ -49,12 +53,20 @@
     <lastmod>2024-08-17T17:13:30.163Z</lastmod>
   </url>
   <url>
+    <loc>http://interrm.littlemonkeylab.com/week01/lab.html</loc>
+    <lastmod>2024-08-17T17:13:30.163Z</lastmod>
+  </url>
+  <url>
     <loc>http://interrm.littlemonkeylab.com/week01/chapter.html</loc>
     <lastmod>2024-08-18T16:58:33.648Z</lastmod>
   </url>
   <url>
-    <loc>http://interrm.littlemonkeylab.com/week01/lab.html</loc>
-    <lastmod>2024-08-17T17:13:30.163Z</lastmod>
+    <loc>http://interrm.littlemonkeylab.com/week01/06-ttests.html</loc>
+    <lastmod>2023-06-25T14:42:08.066Z</lastmod>
+  </url>
+  <url>
+    <loc>http://interrm.littlemonkeylab.com/week01/codeoptions.html</loc>
+    <lastmod>2024-08-18T18:26:57.188Z</lastmod>
   </url>
   <url>
     <loc>http://interrm.littlemonkeylab.com/webexercises.html</loc>
@@ -71,6 +83,10 @@
   <url>
     <loc>http://interrm.littlemonkeylab.com/week00/dataskills.html</loc>
     <lastmod>2024-08-17T17:13:30.162Z</lastmod>
+  </url>
+  <url>
+    <loc>http://interrm.littlemonkeylab.com/CHIP/topic1.html</loc>
+    <lastmod>2024-09-11T12:04:51.974Z</lastmod>
   </url>
   <url>
     <loc>http://interrm.littlemonkeylab.com/week02/chapter.html</loc>
@@ -99,13 +115,5 @@
   <url>
     <loc>http://interrm.littlemonkeylab.com/webr.html</loc>
     <lastmod>2024-08-17T17:13:30.161Z</lastmod>
-  </url>
-  <url>
-    <loc>http://interrm.littlemonkeylab.com/week01/06-ttests.html</loc>
-    <lastmod>2023-06-25T14:42:08.066Z</lastmod>
-  </url>
-  <url>
-    <loc>http://interrm.littlemonkeylab.com/week01/codeoptions.html</loc>
-    <lastmod>2024-08-18T18:22:55.217Z</lastmod>
   </url>
 </urlset>

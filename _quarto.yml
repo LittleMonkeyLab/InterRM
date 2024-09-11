@@ -4,7 +4,7 @@ project:
 resources: CNAME
 bibliography: references.bib
 mainfont: Atkinson Hyperlegible
-logo: images/LMLLOGO.png
+logo: images/rmmonkey.png
 website:
   title: IntroRM
   repo-url: https://github.com/LittleMonkeyLab/interrm
@@ -27,7 +27,7 @@ website:
     border: true
     collapse-level: 1
     contents:
-    - section: Module Overview
+    - section: Overview
       contents:
       - text: Syllabus
         href: index.qmd
@@ -35,37 +35,34 @@ website:
         href: data.qmd
       - text: Readings
         href: readings.qmd
-    - section: Assignments
+    - section: Content
       contents:
       - text: Assignments Overview
         href: rubrics/rubric_muddiest-point.qmd
-    - section: Course Content
+    - section: CHIP Topics
       contents:
-      - section: Welcome Week
-        contents:
-        - week00/chapter.qmd
-        - week00/lab.qmd
-        - week00/dataskills.qmd
-      - section: Week 01 - Intro
-        contents:
-        - week01/chapter.qmd
-        - week01/lab.qmd
-        - week01/dataskills.qmd
-      - section: Week 02 - Getting real
-        contents:
-        - week02/chapter.qmd
-        - week02/lab.qmd
-        - week02/dataskills.qmd
-      - section: Week 03
-        contents:
-        - week03/chapter.qmd
-        - week03/lab.qmd
-        - week03/dataskills.qmd
-      - section: Week 04
-        contents:
-        - week04/chapter.qmd
-        - week04/lab.qmd
-        - week04/dataskills.qmd
+      - CHIP/overview.qmd
+      - CHIP/topic1.qmd
+      # - section: Week 01 - Intro
+      #   contents:
+      #   - week01/chapter.qmd
+      #   - week01/lab.qmd
+      #   - week01/dataskills.qmd
+      # - section: Week 02 - Getting real
+      #   contents:
+      #   - week02/chapter.qmd
+      #   - week02/lab.qmd
+      #   - week02/dataskills.qmd
+      # - section: Week 03
+      #   contents:
+      #   - week03/chapter.qmd
+      #   - week03/lab.qmd
+      #   - week03/dataskills.qmd
+      # - section: Week 04
+      #   contents:
+      #   - week04/chapter.qmd
+      #   - week04/lab.qmd
+      #   - week04/dataskills.qmd
       # - section: Week 05
       #   contents:
       #   - week05/chapter.qmd

@@ -54,14 +54,6 @@ print(report_output)
 
 ```
 
-```{r}
-apa.2way.table(iv1=a,iv2=b,dv=dv,data=fidler_thompson,landscape=TRUE, filename="ex2_desc_table.doc")
-```
-
-```{r}
-g <- fidler_thompson
-
-```
 
 -   Inert code block with annotation comment and comment.
 

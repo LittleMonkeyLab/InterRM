@@ -6,7 +6,7 @@ bibliography: references.bib
 mainfont: Atkinson Hyperlegible
 logo: images/rmmonkey.png
 website:
-  title: IntroRM
+  title: InterRM
   repo-url: https://github.com/LittleMonkeyLab/interrm
   site-url: http://interrm.littlemonkeylab.com/
   repo-actions: issue
@@ -22,6 +22,7 @@ website:
       href: https://github.com/
       aria-label: GitHub
   sidebar:
+    logo: "images/rmmonkey.png"
     style: docked
     alignment: left
     border: true

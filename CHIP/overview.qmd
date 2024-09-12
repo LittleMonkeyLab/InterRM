@@ -1,7 +1,16 @@
 ---
-title: "CHIP Overview"
+title: "CHIP Listings"
+listing: 
+  id: chip-listings
+  sort: "date desc"
+  type: table
+  contents: CHIP/topics/*.qmd
+  fields: [image, date, title, author, reading-time]
 ---
 
 ## CHIP from top to bottom
 
 It's chips babies.
+
+::: {#chip-listings}
+:::

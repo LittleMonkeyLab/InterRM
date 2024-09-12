@@ -43,7 +43,7 @@ website:
     - section: CHIP Topics
       contents:
       - CHIP/overview.qmd
-      - CHIP/topic1.qmd
+      - CHIP/topics/example.qmd
       # - section: Week 01 - Intro
       #   contents:
       #   - week01/chapter.qmd

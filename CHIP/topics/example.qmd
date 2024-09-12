@@ -5,15 +5,11 @@ author: "Dr. Gordon Wright"
 description: "An example chip topic"
 date: 09/12/24
 date-format: "dd MM yyyy"
-image: ".../images/rmmonkey.png"
 ---
 
 ## Chip stuff
 
-Not vinegar
-title	x	x	x
-subtitle	x		
-author	x	x	x
-description	x		x
-date	x	x	x
-image
+![](images/othermonkey.png){width="100"}
+
+Not vinegar title x x x subtitle x\
+author x x x description x x date x x x image

@@ -3,8 +3,9 @@ title: "Exemplary Title for a CHIP topic"
 subtitle: "Example Topic"
 author: "Dr. Gordon Wright"
 description: "An example chip topic"
-date: today
-image: "../images/rmmonkey.png"
+date: 09/12/24
+date-format: "dd MM yyyy"
+image: ".../images/rmmonkey.png"
 ---
 
 ## Chip stuff

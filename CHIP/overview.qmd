@@ -4,7 +4,7 @@ listing:
   id: chip-listings
   sort: "date desc"
   type: table
-  contents: CHIP/topics/*.qmd
+  contents: topics/*.qmd
   fields: [image, date, title, author, reading-time]
 ---
 

@@ -38,8 +38,8 @@ website:
         href: readings.qmd
     - section: Content
       contents:
-      - text: Assignments Overview
-        href: rubrics/rubric_muddiest-point.qmd
+      - text: Chapter
+        href: week01/chapter.qmd
     - section: CHIP Topics
       contents:
       - CHIP/overview.qmd

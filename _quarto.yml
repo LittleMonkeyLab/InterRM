@@ -33,12 +33,12 @@ website:
       - text: Syllabus
         href: index.qmd
     - section: Content
-      contents:
-      - text: Chapter
-        href: week01/chapter.qmd
-    - section: CHIP Topics
-      contents:
-      - CHIP/overview.qmd
+      contents: auto
+    #   - text: Chapter
+    #     href: week01/chapter.qmd
+    # - section: CHIP Topics
+    #   contents:
+    #   - CHIP/overview.qmd
       # - CHIP/topics/example.qmd
       # - section: Week 01 - Intro
       #   contents:

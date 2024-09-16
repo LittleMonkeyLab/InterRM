@@ -1,0 +1,29 @@
+---
+title: "The Role of IQ Tests in Psychology"
+subtitle: "Exploring The Role of IQ Tests in Psychology"
+author: "Dr. Gordon Wright"
+description: "An overview of current debates in The Role of IQ Tests in Psychology as it relates to Psychology"
+date: 11/18/24
+date-format: "dd MM yyyy"
+categories: CHIP
+---
+## Chip Topic
+The Role of IQ Tests in Psychology
+
+## Overview
+This week we will explore The Role of IQ Tests in Psychology and its implications for psychological research.
+
+## Key Points
+1. [Key point 1]
+2. [Key point 2]
+3. [Key point 3]
+
+## Discussion Questions
+1. How does The Role of IQ Tests in Psychology influence our understanding of psychological phenomena?
+2. What are the main challenges in addressing The Role of IQ Tests in Psychology in psychological research?
+3. How can researchers better incorporate considerations of The Role of IQ Tests in Psychology in their work?
+
+## Further Reading
+- [Suggested reading 1]
+- [Suggested reading 2]
+- [Suggested reading 3]

@@ -1,0 +1,40 @@
+---
+title: "DataSkill 10: Reflective Review of the first half"
+subtitle: "Mastering Reflective Review of the first half"
+author: "Dr. Gordon Wright"
+description: "An introduction to Reflective Review of the first half and its application in psychological research"
+date: 12/02/24
+date-format: "dd MM yyyy"
+categories: DataSkills
+---
+## Skill Overview
+This session focuses on Reflective Review of the first half and its importance in psychological research.
+
+## Learning Objectives
+After completing this session, you should be able to:
+1. [Learning objective 1]
+2. [Learning objective 2]
+3. [Learning objective 3]
+
+## Key Concepts
+1. [Key concept 1]
+2. [Key concept 2]
+3. [Key concept 3]
+
+## Practical Exercise
+[Brief description of a hands-on exercise related to Reflective Review of the first half]
+
+## Tips and Best Practices
+1. [Tip 1]
+2. [Tip 2]
+3. [Tip 3]
+
+## Additional Resources
+- [Resource 1: e.g., software download link, tutorial video, etc.]
+- [Resource 2]
+- [Resource 3]
+
+## Reflection Questions
+1. How might Reflective Review of the first half enhance your research capabilities?
+2. What challenges did you face when learning about or applying Reflective Review of the first half?
+3. How could you integrate Reflective Review of the first half into your current or future research projects?

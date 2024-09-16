@@ -1,0 +1,40 @@
+---
+title: "DataSkill 14: Open Science Foundation & Arxiv"
+subtitle: "Mastering Open Science Foundation & Arxiv"
+author: "Dr. Gordon Wright"
+description: "An introduction to Open Science Foundation & Arxiv and its application in psychological research"
+date: 12/30/24
+date-format: "dd MM yyyy"
+categories: DataSkills
+---
+## Skill Overview
+This session focuses on Open Science Foundation & Arxiv and its importance in psychological research.
+
+## Learning Objectives
+After completing this session, you should be able to:
+1. [Learning objective 1]
+2. [Learning objective 2]
+3. [Learning objective 3]
+
+## Key Concepts
+1. [Key concept 1]
+2. [Key concept 2]
+3. [Key concept 3]
+
+## Practical Exercise
+[Brief description of a hands-on exercise related to Open Science Foundation & Arxiv]
+
+## Tips and Best Practices
+1. [Tip 1]
+2. [Tip 2]
+3. [Tip 3]
+
+## Additional Resources
+- [Resource 1: e.g., software download link, tutorial video, etc.]
+- [Resource 2]
+- [Resource 3]
+
+## Reflection Questions
+1. How might Open Science Foundation & Arxiv enhance your research capabilities?
+2. What challenges did you face when learning about or applying Open Science Foundation & Arxiv?
+3. How could you integrate Open Science Foundation & Arxiv into your current or future research projects?

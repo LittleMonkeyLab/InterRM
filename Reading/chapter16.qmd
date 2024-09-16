@@ -1,0 +1,35 @@
+---
+title: "Chapter 16: Writing your MD | Methods"
+subtitle: "Exploring Writing your MD | Methods"
+author: "Dr. Gordon Wright"
+description: "An overview of Writing your MD | Methods and its application in psychological research"
+date: 01/13/25
+date-format: "dd MM yyyy"
+categories: Reading
+---
+## Chapter Overview
+This chapter focuses on Writing your MD | Methods and its importance in psychological research.
+
+## Learning Objectives
+After reading this chapter, you should be able to:
+1. [Learning objective 1]
+2. [Learning objective 2]
+3. [Learning objective 3]
+
+## Key Concepts
+1. [Key concept 1]
+2. [Key concept 2]
+3. [Key concept 3]
+
+## Summary
+[Brief summary of the chapter's main points]
+
+## Critical Thinking Questions
+1. How does Writing your MD | Methods contribute to our understanding of psychological research?
+2. What are some potential challenges or limitations in applying Writing your MD | Methods to real-world research scenarios?
+3. How might advances in technology or methodology impact our approach to Writing your MD | Methods in the future?
+
+## Further Reading
+- [Suggested reading 1]
+- [Suggested reading 2]
+- [Suggested reading 3]

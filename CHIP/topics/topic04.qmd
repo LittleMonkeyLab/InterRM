@@ -1,0 +1,29 @@
+---
+title: "Nature vs. Nurture Debate"
+subtitle: "Exploring Nature vs. Nurture Debate"
+author: "Dr. Gordon Wright"
+description: "An overview of current debates in Nature vs. Nurture Debate as it relates to Psychology"
+date: 10/21/24
+date-format: "dd MM yyyy"
+categories: CHIP
+---
+## Chip Topic
+Nature vs. Nurture Debate
+
+## Overview
+This week we will explore Nature vs. Nurture Debate and its implications for psychological research.
+
+## Key Points
+1. [Key point 1]
+2. [Key point 2]
+3. [Key point 3]
+
+## Discussion Questions
+1. How does Nature vs. Nurture Debate influence our understanding of psychological phenomena?
+2. What are the main challenges in addressing Nature vs. Nurture Debate in psychological research?
+3. How can researchers better incorporate considerations of Nature vs. Nurture Debate in their work?
+
+## Further Reading
+- [Suggested reading 1]
+- [Suggested reading 2]
+- [Suggested reading 3]

@@ -1,0 +1,29 @@
+---
+title: "Cognitive enhancement via drugs and implants"
+subtitle: "Exploring Cognitive enhancement via drugs and implants"
+author: "Dr. Gordon Wright"
+description: "An overview of current debates in Cognitive enhancement via drugs and implants as it relates to Psychology"
+date: 02/10/25
+date-format: "dd MM yyyy"
+categories: CHIP
+---
+## Chip Topic
+Cognitive enhancement via drugs and implants
+
+## Overview
+This week we will explore Cognitive enhancement via drugs and implants and its implications for psychological research.
+
+## Key Points
+1. [Key point 1]
+2. [Key point 2]
+3. [Key point 3]
+
+## Discussion Questions
+1. How does Cognitive enhancement via drugs and implants influence our understanding of psychological phenomena?
+2. What are the main challenges in addressing Cognitive enhancement via drugs and implants in psychological research?
+3. How can researchers better incorporate considerations of Cognitive enhancement via drugs and implants in their work?
+
+## Further Reading
+- [Suggested reading 1]
+- [Suggested reading 2]
+- [Suggested reading 3]

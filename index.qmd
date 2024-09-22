@@ -1,71 +1,10 @@
 ---
 title: "Welcome to Intermediate Research Methods"
 date: created
-
 ---
 
-Setting up CI for quarto website.
+Setting up Intermediate Research Methods Text
 
-``` html
-<iframe src="https://littlemonkeylab.github.io/placeholder_slides" width="500" height="400"></iframe>
+```{=html}
+<iframe width="780" height="500" src="https://forms.office.com/Pages/ResponsePage.aspx?id=Px9DDcEgHEaVikaynU4CG8gqdkQ5QElOkXjIDHSz7DVUOFdOSVVGTk45VlRURDdFUzFFQllOVjNKWC4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen></iframe>
 ```
-
-content as html file in assets/
-
-{{< revealjs file="assets/placeholder_slides.html" height="500px" class="ratio ratio-16x9" >}}
-
-more content as linked URL in another presentation.
-
-{{< revealjs file="https://littlemonkeylab.github.io/slides/" height="500px" class="ratio ratio-16x9" >}}
-
-```{r}
-library(papaja)
-
-# Simulated data
-CBT <- c(23, 19, 21, 22, 20, 24, 25, 18, 22, 23)
-Placebo <- c(30, 28, 27, 29, 31, 32, 33, 30, 29, 28)
-
-# Combine into a data frame
-data <- data.frame(
-  group = factor(rep(c("CBT", "Placebo"), each = 10)),
-  anxiety = c(CBT, Placebo)
-)
-
-
-# Example: t-test in APA format
-t_test_results <- t.test(anxiety ~ group, data = data)
-
-# Use apa_print to format the output
-apa_output <- apa_print(t_test_results)
-print(apa_output)
-
-```
-
-```{r}
-library(report)
-
-# Example: t-test in APA format
-t_test_results <- t.test(anxiety ~ group, data = data)
-
-# Generate the report
-report_output <- report(t_test_results)
-print(report_output)
-
-```
-
-
--   Inert code block with annotation comment and comment.
-
-    ``` r
-    stats::rnorm(1) # <1>
-    ```
-
-    1.  Dummy code annotation `stats::rnorm(1)`.
-
--   Computational code block with annotation comment and comment.
-
-    ```{r}
-    stats::rnorm(2) # <1>
-    ```
-
-    1.  Dummy code annotation `stats::rnorm(2)`.

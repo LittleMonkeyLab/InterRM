@@ -1,0 +1,213 @@
+---
+title: Mini-Dissertation
+author: Dr. Gordon Wright
+categories: coursework
+---
+
+# Detailed Mini-Dissertation Briefing
+
+Here’s an initial draft of your extended briefing for the
+Mini-Dissertation. I’ve added structure and signposted areas where more
+detail or guidance could be provided:
+
+------------------------------------------------------------------------
+
+# Mini-Dissertation Briefing
+
+## Overview
+
+The Mini-Dissertation is an integral part of your academic journey,
+contributing **70%** of your module grade. It mirrors the structure of
+an APA lab report, similar to the reports you completed last year.
+However, in this task, nothing is pre-packaged – you and your group will
+make all the research decisions, with support from your teaching team,
+lab tutors, and personal tutors.
+
+### Key Objectives:
+
+-   **Duration**: 20 weeks.
+-   **Group work**: You will be working in a group of 3 or 4 students,
+    but the project must be unique to your group.
+-   **Focus**: The project will require you to design and conduct an
+    original psychological experiment.
+
+------------------------------------------------------------------------
+
+## Project Components
+
+### 1. **Identify an Area of Psychological Research**
+
+Your first task is to select an area of research that interests you.
+This could be drawn from your past studies, ongoing debates in
+psychology, or gaps in the literature. You'll need to ensure that this
+area lends itself to an **experimental approach** (using a 2x2 ANOVA
+design) and that it's feasible within the timeframe and resources
+available.
+
+**Action point**:\
+Explore journal articles or speak with your teaching team to help narrow
+down a research domain. Seek feedback from your lab tutors to confirm
+that the chosen area is appropriate.
+
+------------------------------------------------------------------------
+
+### 2. **Literature Review and Critique**
+
+Once you’ve identified your research area, you will conduct a
+**comprehensive literature review**. This involves identifying relevant
+studies, summarizing their findings, critiquing their methodologies, and
+discussing how your project will build upon or diverge from the existing
+research.
+
+**Suggested Outline**: - Summarize key studies. - Identify
+methodological strengths and weaknesses. - Highlight unresolved issues
+or gaps in knowledge. - Justify how your experiment will address these
+issues.
+
+**Resources**:\
+Make use of the readings provided in your module, and ensure you use
+credible, peer-reviewed journal articles for your review.
+
+------------------------------------------------------------------------
+
+### 3. **Design a 2x2 ANOVA Experiment**
+
+The experiment must follow a **2x2 factorial design**, where you have
+two independent variables (IVs), each with two levels. This will allow
+for the examination of main effects and interaction effects between the
+variables. Importantly, your design should be **unique** to your group,
+even if other groups are working in the same general research area.
+
+**Considerations**: - How do the IVs relate to the literature review? -
+How will you operationalize each variable? - What tools or resources
+will you need for data collection? - Can you feasibly recruit enough
+participants within the timeframe?
+
+**Gap to address**:\
+Further guidance on common pitfalls in designing a 2x2 ANOVA experiment,
+especially if your group is unfamiliar with this type of analysis, could
+be beneficial.
+
+------------------------------------------------------------------------
+
+### 4. **Develop a Testable Hypothesis**
+
+Your hypothesis must be based on the literature you’ve reviewed and
+should clearly state **what you expect to find** in your 2x2 ANOVA.
+Ensure that it is testable and specific enough to guide your experiment.
+
+**Example**:\
+“If IV1 and IV2 interact, participants in condition X will show
+significantly higher scores than in condition Y.”
+
+**Gap**:\
+It would be helpful to provide more detailed guidance on formulating
+hypotheses, particularly for students who may struggle with writing
+testable predictions.
+
+------------------------------------------------------------------------
+
+### 5. **Ethical Approval**
+
+Before any data collection, you will need to secure **Ethical
+Approval**. This involves submitting an ethics proposal outlining your
+study design, recruitment methods, data handling procedures, and how you
+will safeguard participant welfare.
+
+**Signpost**:\
+Work closely with your lab tutor to ensure that your ethics submission
+is thorough. Templates and examples of successful applications may be
+made available, and students should adhere to institutional guidelines
+on ethical research practices.
+
+------------------------------------------------------------------------
+
+### 6. **Data Collection**
+
+You will be required to collect **REAL data** for your experiment. This
+will involve recruiting participants, administering your experimental
+manipulations, and ensuring data is collected in a controlled, valid,
+and reliable manner.
+
+**Key Tips**: - Ensure consistency in administering your experiment
+across all participants. - Be prepared for potential challenges (e.g.,
+low recruitment numbers, technical issues).
+
+------------------------------------------------------------------------
+
+### 7. **Data Analysis: Conduct a 2x2 ANOVA**
+
+Once the data are collected, you will conduct a **2x2 ANOVA** to test
+for main effects and interaction effects. This statistical analysis is
+essential to your Mini-Dissertation, so it’s important to understand the
+process.
+
+**Support**:\
+You will have access to lab sessions and statistical support. Ensure
+that you attend these sessions and seek feedback if you are uncertain
+about your analysis.
+
+------------------------------------------------------------------------
+
+### 8. **Write the APA Report**
+
+Your report must be written in **APA format** and should not exceed
+2,500 words (from the first word of the Introduction to the last word of
+the Discussion). You should include the following sections:
+
+-   **Title Page**
+-   **Abstract** (150-250 words)
+-   **Introduction**: Summarize your literature review, state your
+    hypothesis, and justify the research.
+-   **Method**: Describe the participants, materials, procedure, and
+    design in detail.
+-   **Results**: Present your 2x2 ANOVA analysis, report the main
+    effects and interactions, and include effect sizes.
+-   **Discussion**: Interpret your findings, link back to the
+    literature, and suggest implications for future research.
+-   **References**: APA-style references of the works cited.
+
+------------------------------------------------------------------------
+
+### 9. **Supporting Materials**
+
+Along with your report, you must submit the following materials: -
+**Open Data**: The raw data you collected, anonymized where necessary. -
+**Open Materials**: Any instruments, surveys, or stimuli used in your
+experiment. - **Critical Reflection** (±300 words not included in 2,500
+word limit of report - and you can write more if you wish): A brief
+statement reflecting on the decision-making process, challenges, and any
+adjustments that were made during the project.
+
+------------------------------------------------------------------------
+
+## Key Tips for Success
+
+-   **Attendance**: Active participation in all group meetings and lab
+    sessions is crucial.
+-   **Collaboration**: Work closely with your group members, but
+    remember, the final write-up and some elements must be your
+    individual work.
+-   **Reflection**: Keep a reflective diary of decisions made,
+    challenges faced, and changes in your understanding.
+-   **Confidence**: Mistakes are expected! The teaching team will not
+    penalize you for early decisions that may seem 'sub-optimal'.
+
+------------------------------------------------------------------------
+
+## Final Thoughts
+
+The Mini-Dissertation represents the culmination of the skills you’ve
+developed over the past year. While it may seem challenging, the
+extensive support materials and guidance provided are designed to help
+you every step of the way. The key to success is active engagement –
+from group discussions to lab sessions, don’t hesitate to ask for help
+when needed.
+
+------------------------------------------------------------------------
+
+This draft provides a basic structure for the extended briefing.
+Additional information on **specific challenges** (e.g., ethical
+approval, data collection issues, and 2x2 ANOVA analysis) could be
+developed further, alongside advice on **how to manage group dynamics**
+and distribute responsibilities effectively.

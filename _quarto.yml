@@ -11,9 +11,18 @@ website:
   site-url: http://interrm.littlemonkeylab.com/
   repo-actions: issue
   navbar:
+    left:
+    - text: "Coursework Information"
+      menu:
+      - Reading/coursework.qmd
+      - Reading/courseworkCP.qmd
+      - Reading/courseworkMD.qmd
+      - Reading/courseworkCHIP.qmd
     right:
     - text: Schedule
       href: schedule.qmd
+    - text: Coursework Info
+      href: coursework.qmd
     - text: Staff
       menu:
       - text: Dr. Gordon Wright
@@ -53,7 +62,7 @@ format:
     mainfont: Atkinson Hyperlegible
     monofont: Fira Code
     toc: true
-    link-external-newwindow: true
+    link-external-newwindow: false
     link-external-icon: false
     css: include/webex.css
     include-after-body: include/webex.js

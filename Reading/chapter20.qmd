@@ -7,29 +7,39 @@ date: 02/10/25
 date-format: "dd MM yyyy"
 categories: Reading
 ---
+
 ## Chapter Overview
-This chapter focuses on A review of the year and what you have achieved and its importance in psychological research.
+
+This chapter focuses on A review of the year and what you have achieved
+and its importance in psychological research.
 
 ## Learning Objectives
-After reading this chapter, you should be able to:
-1. [Learning objective 1]
-2. [Learning objective 2]
-3. [Learning objective 3]
+
+After reading this chapter, you should be able to: 1. \[Learning
+objective 1\] 2. \[Learning objective 2\] 3. \[Learning objective 3\]
 
 ## Key Concepts
-1. [Key concept 1]
-2. [Key concept 2]
-3. [Key concept 3]
+
+1.  \[Key concept 1\]
+2.  \[Key concept 2\]
+3.  \[Key concept 3\]
 
 ## Summary
-[Brief summary of the chapter's main points]
+
+\[Brief summary of the chapter's main points\]
 
 ## Critical Thinking Questions
-1. How does A review of the year and what you have achieved contribute to our understanding of psychological research?
-2. What are some potential challenges or limitations in applying A review of the year and what you have achieved to real-world research scenarios?
-3. How might advances in technology or methodology impact our approach to A review of the year and what you have achieved in the future?
+
+1.  How does A review of the year and what you have achieved contribute
+    to our understanding of psychological research?
+2.  What are some potential challenges or limitations in applying A
+    review of the year and what you have achieved to real-world research
+    scenarios?
+3.  How might advances in technology or methodology impact our approach
+    to A review of the year and what you have achieved in the future?
 
 ## Further Reading
-- [Suggested reading 1]
-- [Suggested reading 2]
-- [Suggested reading 3]
+
+-   \[Suggested reading 1\]
+-   \[Suggested reading 2\]
+-   \[Suggested reading 3\]

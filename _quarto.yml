@@ -14,22 +14,22 @@ website:
     left:
     - text: "Coursework Information"
       menu:
-      - Reading/coursework.qmd
-      - Reading/courseworkCP.qmd
-      - Reading/courseworkMD.qmd
-      - Reading/courseworkCHIP.qmd
-    right:
-    - text: Schedule
-      href: schedule.qmd
-    - text: Coursework Info
-      href: coursework.qmd
-    - text: Staff
-      menu:
-      - text: Dr. Gordon Wright
-        href: https://littlemonkeylab.github.io/
-    - icon: github
-      href: https://github.com/
-      aria-label: GitHub
+      - coursework/coursework.qmd
+      - coursework/courseworkCP.qmd
+      - coursework/courseworkMD.qmd
+      - coursework/courseworkCHIP.qmd
+    # right:
+    # - text: Schedule
+    #   href: schedule.qmd
+    # - text: Coursework Info
+    #   href: coursework.qmd
+    # - text: Staff
+    #   menu:
+    #   - text: Dr. Gordon Wright
+    #     href: https://littlemonkeylab.github.io/
+    # - icon: github
+    #   href: https://github.com/
+    #   aria-label: GitHub
   sidebar:
     logo: "images/rmmonkey.png"
     style: docked

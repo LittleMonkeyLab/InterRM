@@ -1,0 +1,290 @@
+---
+title: Coursework for Research Methods PS52007D
+subtitle: Preliminary overview 2024/5
+date: 09/23/2024
+author: Dr. Gordon Wright
+categories: coursework
+logo: "./images/rmmonkey.png"
+format: 
+  pdf: default
+  html: default
+---
+
+Here is an overview of all coursework elements on the module. You will
+find separate briefs for each element, alongside rubrics, and FAQs on
+the VLE. Any and all questions you might have will be posed in lectures
+or via the Forum and answered solely via those same channels. This is
+for the benefit of all students. No exceptions will be made. I am
+confident you understand the importance of this point and why it is so.
+
+## Module weight and progression requirements
+
+This is a 30 credit module and you must submit and pass all three
+coursework elements (Critical Proposal, Mini-Dissertation and CHIP
+Learning Log) in order to pass the module.
+
+The module is anticipated to involve plenty of your independent study
+time, as well as consistent attendance at Lectures and weekly Labs. This
+module delivers a wide range of critical learning outcomes and skills
+for your degree, and runs parallel to the rest of your programme. Time
+and project management is an integral part of this assessment. It is
+unwise to be too reactive to upcoming deadlines and de-prioritising
+ongoing work on this module throughout the year, but Gordon will talk
+about this in detail.
+
+If you do not submit (or fail) any element at the first attempt,
+resubmission is possible in July 2025.
+
+If you do not pass at that point, resubmission (3rd attempt) would next
+be possible in March 2026 - meaning you would be eligible to enter year
+3 in October 2025, but possibly have to repeat the activity and enter
+year 3 in October 2026.
+
+::: callout-warning
+Very few people actually fail this module, and those that do, it is
+entirely due to a lack of attendance, and subsequent incorrect or missed
+submissions. It's better to keep up, than catch up.
+:::
+
+## Attendance and Participation
+
+You are expected to attend lectures on Monday, and participate in your
+weekly labs and group work on Tuesday and in your independent study. 4
+Personal Tutor sessions are also dedicated to this module, so even more
+support is available, and we encourage you to take full advantage of
+these too!
+
+At the start of each lab session, you are required to complete the very
+short 'Speed Data' - it's a brief check-in - usually no more than 30
+seconds - which will help us to monitor your well-being, your progress
+and survey the entire group for questions relevant to the module and
+forthcoming teaching. By doing this, you save us time that we can use to
+better support you over the course of the year.
+
+Labs are structured and activities developed to help you along the way
+with your group projects, but the point of the year is that you work as
+a team and demonstrate project management skills, time management
+skills, and solve problems as they arise. Solving problems sounds
+ominous, but it isn't usually. Normally, the 'problems' you need to
+solve are "What should we do next?", or "Who should do what?", or "How
+could I make x even better/easier?" You'll get the hang of it.
+
+Key milestones are in place throughout the course to help structure your
+efforts and to make sure everyone is progressing at a similar pace.
+Indeed, the year (20 weeks) is chunked into 4 'sprints' or phases of
+activity. Please listen to Gordon and your Lab Tutors when they talk
+about these.
+
+By structuring the course this way, we hope to help you understand the
+things that are easy and the things that might be less so when you do it
+again in Year 3 for your independent dissertation. These are different
+for everyone. Some people find x easy and don't get Y, the next person
+might be the absolute opposite. Knowledge is power in this regard, and
+will help you manage your time and optimise your outcomes next year!
+
+The coursework mentioned below has strict deadlines, with the normal
+RASA accommodations available, as well as Extenuating Circumstances. If
+you will be using a RASA, please take the time to discuss it with the
+Teaching Team (in confidence). For extended project work and group work,
+we have advice that can help manage this, and we have loads of tips and
+tricks to share. Please just ask! Extenuating Circumstances are
+available for the usual reasons, but applications based on team
+dysfunction or team-mates not sharing date (for example) have
+historically been rejected. For students submitting under RASA or EC,
+support sessions for the Mini-Dissertation will be available prior to
+the deadline at times specified by Gordon. This is to ensure equivalent
+support is available. We've got you!
+
+Applications for ethical approval (a compulsory step in the process of
+your Mini-Dissertation before Winter Break) are not permitted after the
+end of Term 1, and can be submitted at any time in the second half of
+Term 1 (weeks 6-10), and is expected to take 7 days to be processed.
+
+We trust you to keep notes, and to share documents amongst your team,
+and to try to be organised and predict obstacles. We do not usually
+require you to 'submit' anything apart from the 3 pieces of coursework,
+but in this module you can 'work with the garage door open'. As with all
+coursework, we can't mark and give feedback to written work prior to the
+deadline, but we can look at things on screen, answer specific questions
+about parts of the process, even show you examples of good and bad
+approaches etc. This doesn't need to be too formal, and is what we want
+to do, we want to give you a thumbs up and the confidence to carry on,
+and it's a skill we want to train 'Lab Tutor/Supervisor Management'. It
+is up to you to allow this to happen, not something we are going to nag
+you about though! (Please do it though!!)
+
+Lab Tutors will NOT give extended lectures on materials already covered
+in lectures, and they are NOT available outside of lab time, either in
+person or via email. Gordon is available for general questions (as
+Module Coordinator) - but this is not for group-work queries. It is part
+of the skillset that we are trying to train you in to consider and
+anticipate next steps, to share information in a clear and detailed way
+to colleagues and Tutors, and to keep track of the decisions you make
+along the way.
+
+For example, in a lab, if you were to ask your Lab-Tutor "What should I
+be doing now?", expect the answer to be "What do you think?". Anticipate
+that question as a general rule. We would prefer to see a list of ideas,
+or a single idea, or a guess... and we will happily work together from
+there. To be honest, most of the time you'll probably be right, your
+guesses might be better than you think, and we want you to recognise
+that you are probably making PLENTY of good decisions along the way,
+even if they feel complicated, or uncertain!
+
+{{< pagebreak >}}
+
+## Critical Proposal - 1,800 words (15%) due: 12pm (midday) 1st November 2024 (end of Wk 5)
+
+The first deadline you have is the Critical Proposal.
+
+You are asked to identify a peer-reviewed article from a Psychology
+journal which features a behavioural task or psychometric tool/measure
+which may be relevant to your research topic. You are asked to
+critically evaluate the paper, or a specific part of the paper (e.g. a
+single study out of a multi-study paper) and critically reflect on how
+you might consider building upon the strengths you outline, or improving
+on any weaknesses. This should not be general, it should be heavily
+geared towards the next steps in the process of designing or building
+your own study.
+
+The mark is work 15% of the module grade and 70% of the mark is
+allocated towards the critical evaluation, with 30% being allocated
+towards the reflection, (modest) creativity you show, and how your
+critique informs your plans to develop your study individually and as a
+group.
+
+A detailed rubric is available on the VLE to further identify the
+features you need to address.
+
+**Learning outcomes:**
+
+-   To encourage a deeper and more rigorous approach to reading
+    published research
+-   Appraise the process of psychological research and assess the merits
+    of particular studies or tools
+-   Assess the reporting of research in published sources
+-   Critically reflect on how research practices may be improved, or
+    strengths built upon, and how your Mini-Dissertation, although
+    modest in scale, may actually improve research in the field
+
+::: callout-note
+It is compulsory that you chose a peer-reviewed article.
+
+It must be an article that reports an empirical study (i.e. they collect
+and interpret data).
+
+It must be from a domain of psychology or related field, and it must
+have an element that can feasible play a part in your study.
+:::
+
+It is considered an error on your part to not give yourself time to
+consider if the paper you have chosen conforms to these parameters, and
+your Lab Tutor is able to assist you fully - they can tell you clearly
+and individually if a paper is suitable, but perhaps not tell you
+whether it is perfect.
+
+Choosing a good paper is part of the assessment, and therefore you have
+the opportunity to submit this to your Personal Tutor too, so that the
+week 4 Personal Tutor session can also be a source of support and
+confidence-building. The submission for this is voluntary (but
+recommended) and will be strictly limited to prior to the week 4 PT
+session. You miss it, you missed it.
+
+{{< pagebreak >}}
+
+## Mini-Dissertation - 2,500 word APA format (lab)report with Open Data, Open Materials and Reflective Account - due 12pm (midday) 28th March 2025 (end of week 20)
+
+Your Mini-Dissertation is absolutely identical in structure and function
+to a normal APA lab-report - the type you did last year. The only
+difference is that nothing comes 'ready-made' - you design it, build it,
+collect data, analyse and report it. To assist you in this process, you
+will have your group (3 or 4 student ONLY). You will have your Teaching
+Team (Module Coordinator and Lab-Tutors) and you will have your Personal
+Tutors cheering you on.
+
+The Mini-Dissertation is worth 70% of your module grade.
+
+Over the course of 20 weeks, you will:
+
+-   Identify an area of psychological research
+-   Review and critique the literature in this area
+-   Design a 2x2 ANOVA experiment that is unique to you but mobilised in
+    your group.
+-   Develop a testable hypothesis
+-   Obtain Ethical Approval for your experiment
+-   Collect REAL data
+-   Analyse these data
+-   Write up the results in APA format report of no more than 2,500
+    words in length from first word of the Title (including abstract) to
+    the last word of the Discussion
+-   Submit supporting materials (Open Data, Open Materials and a very
+    modest Critical Reflection ± 200 words)
+
+A detailed rubric and examples are available on the VLE
+
+Extensive supporting materials are provided and you will be supported
+every step of the way.
+
+The only way you can have problems is by not contributing to your group
+efforts or attending labs and extra support sessions throughout the
+year.
+
+You are going to make lots of decisions, individually and as a group,
+and some may be ones that you later reflect on as 'sub-optimal' -
+fantastic. You might feel unsure about whether a choice is good or bad -
+wonderful. If you aren't making mistakes or doing things that feel
+uncertain, you aren't doing it right. We do not let anyone impair their
+marks for decisions made at any point in the process. And we can't
+predict the future either, so even if something goes wrong that nobody
+anticipated, it doesn't matter. It's how you deal with it and reflect on
+it that matters. If you attend and do the work, everyone has exactly the
+same chance of doing well with the submission grade right up to the
+point of submission.
+
+Please have confidence in that. Jump in! The water is lovely!
+
+{{< pagebreak >}}
+
+## CHIP learning log - 2x 600 word Reflective Accounts on different topics with references - Due: 12pm (midday) 11th April 2025 (2 weeks after end of term 2)
+
+CHIP stands for Conceptual, Historical and Integrative Perspectives.
+
+During the course of the year, a range of concepts, debates and
+questions will be posed and presented in the lectures, sometimes in
+passing (at the start of the year) and sometimes in detail (usually
+towards the end of the year). Hopefully we will explore topics that are
+meaningful and salient to you as a group and as burgeoning scientists.
+
+Over the course of the year, we want you to consider these concepts,
+engage with these debates, or reflect on questions around how Psychology
+contributes or conflicts with you as an individual, a future scientist,
+or a developing life-long learner.
+
+A detailed rubric for this assessment is available on the VLE
+
+You are asked to present 2 'reflective accounts' on topics raised during
+the year. You can choose what 2, but they must be different.
+
+The first reflective account requires you to adopt 2 perspectives from
+the following list and reflect on any of the topics raised during the
+year:
+
+-   As a STUDENT of psychology
+-   As a TRAINEE psychologist
+-   In relation to a RESEARCH application in your future
+-   As an HISTORIAN of psychology
+-   Reporting on the culture or PRACTICE of psychology as it currently
+    exists here or across cultures
+-   As a critic or supporter of psychology's status as a SCIENCE
+
+The second reflective account takes a single identified starting point
+(a reading, a TED talk, a cartoon or TikTok video etc) but then logs
+your journey of exploration and understanding. How has your
+understanding developed? How did you pursue this idea? What reactions
+did you experience to new ideas? What have you learned or re-discovered
+during this process of learning?
+
+Questions relating to any of the three coursework element can be asked
+using the Forum and each element will be presented in detail in lectures
+in due course. For the benefit of all students, Q&A related to
+coursework will ONLY be managed in the forum.

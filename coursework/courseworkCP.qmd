@@ -1,0 +1,134 @@
+---
+title: Critical Proposal
+subtitle: Detailed Guidance 2024/5
+date: 09/23/2024
+author: Dr. Gordon Wright
+categories: coursework
+logo: "./images/rmmonkey.png"
+format: 
+  pdf: default
+  html: default
+---
+
+# Detailed Critical Proposal Briefing
+
+You are asked to write an 1,800 word critical evaluation on an empirical
+paper from a Psychology Journal within your chosen field of research,
+including critical reflection of how you and your group might improve
+upon it, and/or build on its strengths.
+
+-   70% of your mark will depend on the quality of your critical
+    assessment
+-   30% will depend on your suggestions for how your individual and
+    group efforts in the Mini-Dissertation might improve research in
+    this area. (See Rubric for more detail.)
+
+**Important notes**:
+
+-   We stop marking at 1,800 words. No penalty for going over, but the
+    words you use after 1,800 words cannot win you marks.
+-   Worth 15% of your module grade for PS52007D (30 Credits).
+-   Your reference list does not count towards the word count and you
+    MUST include a reference list.
+-   You must ONLY your 8-digit Student ID in the filename.
+-   You must focus on an empirical article (i.e. an article that reports
+    the collection of quantitative data) from a Psychology Journal. You
+    are encouraged to confirm the suitability of your paper with your
+    Lab Tutor and Personal Tutor.
+-   You MUST provide a full APA reference to your chosen paper at the
+    top of your essay.
+-   Although lab groups are collaborative, this must be your individual
+    work, and collusion or plagiarism may result in a penalty or
+    misconduct review.
+-   An AI declaration (regardless of whether you used AI or not) is
+    compulsory.
+
+**Learning outcomes:**
+
+-   To encourage a deeper and more rigorous approach to reading
+    published research
+-   Appraise the process of psychological research and assess the merits
+    of particular studies or tools
+-   Assess the reporting of research in published sources
+-   Critically reflect on how research practices may be improved, or
+    strengths built upon, and how your Mini-Dissertation, although
+    modest in scale, may actually improve research in the field
+
+Your work should be in an essay format with an introduction and critical
+reflection/conclusion. It should not have sub-headings within the text,
+but you are recommended to cover all of the general areas presented
+below, with a focus on the most important aspects as they relaate to
+your chosen project and paper.
+
+**The deadline for handing in your Critical Proposal is: Friday, 1st
+November 2024, before midday.**
+
+------------------------------------------------------------------------
+
+## Suggested Outline
+
+### Summary (Compulsory and Important)
+
+Provide a summary of the article in 150-200 words in which you capture
+the essentials of the Target Paper.
+
+(a) What is the research domain and core question of the paper and what
+    is of interest to you?
+
+(b) What is the method that you are focussing on?
+
+(c) What are the relevant results?
+
+(d) Were there significant flaws or limitations in the study that might
+    give you insight into your own research ahead?
+
+### Research Question
+
+Do the authors link their experiment to wider issues and theories in
+psychology? What question is the paper trying to answer? Is the
+hypothesis clear? Is it well-argued?
+
+### Method
+
+Is it clear and unambiguous? Could another (better) method have been
+used? Could you carry out a replication from this report? Is the design
+the most efficient for the purpose? Have broad theoretical constructs
+been well operationalized into specific variables?
+
+### Outcome
+
+Is the Results section clear? Is the analysis unambiguous? Are all
+analyses and statistical choices appropriate? Did the experimenter
+answer the question?
+
+### Discussion
+
+Are the inferences from the results justified? Well-argued? Do they
+advance our knowledge? What further questions are raised by the results?
+What experiments might be done to answer them?
+
+### Suggested Improvements
+
+Which aspects of the research project could be improved? Is there a
+better research design? Are there extraneous or confounding variables?
+How would you remove them? Could the results be more clearly analysed
+and presented? Think also about which aspects of the paper itself could
+be improved. Were the hypotheses clearly reported and well-justified?
+Would you have displayed information differently (e.g., in figures or
+graphs)?
+
+### Critical Reflection and Conclusion
+
+-   What were the key strengths and/or weaknesses of the paper? Did you
+    find the paper clear? Do you think it provides a persuasive answer
+    to the research question set out, or are there important limitations
+    that limit its overall usefulness?
+-   How will your Mini-Dissertation improve the research presented?
+-   Why is it important that YOU do this research? How will you
+    implement ‘Best Practice’ in the Mini-Dissertation?
+-   What has this exercise taught you, and how has it developed your
+    metacognitive abilities?
+
+------------------------------------------------------------------------
+
+## 

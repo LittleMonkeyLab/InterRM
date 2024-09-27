@@ -409,7 +409,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"options":{"fig-height":5,"label":"unnamed-chunk-1","out-height":"","fig-cap":"","editor-max-height":"","editor-font-scale":"1","read-only":"false","editor-quick-suggestions":"false","classes":"","results":"markup","fig-width":7,"warning":"true","output":"true","autorun":"false","comment":"","context":"interactive","dpi":72,"editor-word-wrap":"true","message":"true","out-width":"700px"},"id":1,"code":"sample_mean <- length(1000)\nsample_se <- length(1000)\n\nfor (i in 1:1000) {\n  s <- rnorm(10, 0, 1)\n  sample_mean[i] <- mean(s)\n  sample_se[i] <- sd(s) / sqrt(length(s))\n}\n\nplot(sample_mean, sample_se)"},{"options":{"fig-height":5,"label":"unnamed-chunk-2","out-height":"","fig-cap":"","editor-max-height":"","editor-font-scale":"1","read-only":"false","editor-quick-suggestions":"false","classes":"","results":"markup","fig-width":7,"warning":"true","output":"true","autorun":"false","comment":"","context":"interactive","dpi":72,"editor-word-wrap":"true","message":"true","out-width":"700px"},"id":2,"code":"# Initialize vectors to store the sample means and standard errors, each of length 1000\nsample_mean <- numeric(1000)  # creates a numeric vector of length 1000 filled with zeros\nsample_se <- numeric(1000)    # creates a numeric vector of length 1000 filled with zeros\n\n# Run a loop 1000 times to generate samples, calculate their means, and standard errors\nfor (i in 1:1000) { # <1>\n  # Generate a sample of 10 random numbers from a normal distribution with mean 0 and standard deviation 1\n  s <- rnorm(10, 0, 1) # <2>\n  \n  # Calculate the mean of the sample and store it in the ith position of the sample_mean vector\n  sample_mean[i] <- mean(s)\n  \n  # Calculate the standard error of the sample mean and store it in the ith position of the sample_se vector\n  sample_se[i] <- sd(s) / sqrt(length(s))\n}\n\n# Plot the sample means against their corresponding standard errors\nplot(sample_mean, sample_se)"},{"options":{"fig-height":5,"label":"unnamed-chunk-3","out-height":"","fig-cap":"","editor-max-height":"","editor-font-scale":"1","read-only":"false","editor-quick-suggestions":"false","classes":"","results":"markup","fig-width":7,"warning":"true","output":"true","autorun":"false","comment":"","context":"interactive","dpi":72,"editor-word-wrap":"true","message":"true","out-width":"700px"},"id":3,"code":"library(tidyverse)\nlibrary(palmerpenguins)\npenguins |>                                      # <1>\n  mutate(                                        # <2>\n    bill_ratio = bill_depth_mm / bill_length_mm, # <2>\n    bill_area  = bill_depth_mm * bill_length_mm  # <2>\n  )         "},{"options":{"fig-height":5,"label":"unnamed-chunk-4","out-height":"","fig-cap":"","editor-max-height":"","editor-font-scale":"1","read-only":"false","editor-quick-suggestions":"false","classes":"","results":"markup","fig-width":7,"warning":"true","output":"true","autorun":"false","comment":"","context":"interactive","dpi":72,"editor-word-wrap":"true","message":"true","out-width":"700px"},"id":4,"code":"# Simulated data\nCBT <- c(23, 19, 21, 22, 20, 24, 25, 18, 22, 23)\nPlacebo <- c(30, 28, 27, 29, 31, 32, 33, 30, 29, 28)\n\n# Combine into a data frame\ndata <- data.frame(\n  group = factor(rep(c(\"CBT\", \"Placebo\"), each = 10)),\n  anxiety = c(CBT, Placebo)\n)\n\n# View the data\nprint(data)"},{"options":{"fig-height":5,"label":"unnamed-chunk-5","out-height":"","fig-cap":"","editor-max-height":"","editor-font-scale":"1","read-only":"false","editor-quick-suggestions":"false","classes":"","results":"markup","fig-width":7,"warning":"true","output":"true","autorun":"false","comment":"","context":"interactive","dpi":72,"editor-word-wrap":"true","message":"true","out-width":"700px"},"id":5,"code":"# Independent samples t-test\nt_test_results <- t.test(anxiety ~ group, data = data)\n\n# Display the results\nprint(t_test_results)"}];
+globalThis.qwebrCellDetails = [{"code":"sample_mean <- length(1000)\nsample_se <- length(1000)\n\nfor (i in 1:1000) {\n  s <- rnorm(10, 0, 1)\n  sample_mean[i] <- mean(s)\n  sample_se[i] <- sd(s) / sqrt(length(s))\n}\n\nplot(sample_mean, sample_se)","options":{"label":"unnamed-chunk-1","message":"true","context":"interactive","editor-word-wrap":"true","out-width":"700px","editor-quick-suggestions":"false","dpi":72,"editor-max-height":"","comment":"","fig-cap":"","fig-height":5,"fig-width":7,"autorun":"false","output":"true","out-height":"","classes":"","warning":"true","read-only":"false","editor-font-scale":"1","results":"markup"},"id":1},{"code":"# Initialize vectors to store the sample means and standard errors, each of length 1000\nsample_mean <- numeric(1000)  # creates a numeric vector of length 1000 filled with zeros\nsample_se <- numeric(1000)    # creates a numeric vector of length 1000 filled with zeros\n\n# Run a loop 1000 times to generate samples, calculate their means, and standard errors\nfor (i in 1:1000) { # <1>\n  # Generate a sample of 10 random numbers from a normal distribution with mean 0 and standard deviation 1\n  s <- rnorm(10, 0, 1) # <2>\n  \n  # Calculate the mean of the sample and store it in the ith position of the sample_mean vector\n  sample_mean[i] <- mean(s)\n  \n  # Calculate the standard error of the sample mean and store it in the ith position of the sample_se vector\n  sample_se[i] <- sd(s) / sqrt(length(s))\n}\n\n# Plot the sample means against their corresponding standard errors\nplot(sample_mean, sample_se)","options":{"label":"unnamed-chunk-2","message":"true","context":"interactive","editor-word-wrap":"true","out-width":"700px","editor-quick-suggestions":"false","dpi":72,"editor-max-height":"","comment":"","fig-cap":"","fig-height":5,"fig-width":7,"autorun":"false","output":"true","out-height":"","classes":"","warning":"true","read-only":"false","editor-font-scale":"1","results":"markup"},"id":2},{"code":"library(tidyverse)\nlibrary(palmerpenguins)\npenguins |>                                      # <1>\n  mutate(                                        # <2>\n    bill_ratio = bill_depth_mm / bill_length_mm, # <2>\n    bill_area  = bill_depth_mm * bill_length_mm  # <2>\n  )         ","options":{"label":"unnamed-chunk-3","message":"true","context":"interactive","editor-word-wrap":"true","out-width":"700px","editor-quick-suggestions":"false","dpi":72,"editor-max-height":"","comment":"","fig-cap":"","fig-height":5,"fig-width":7,"autorun":"false","output":"true","out-height":"","classes":"","warning":"true","read-only":"false","editor-font-scale":"1","results":"markup"},"id":3},{"code":"# Simulated data\nCBT <- c(23, 19, 21, 22, 20, 24, 25, 18, 22, 23)\nPlacebo <- c(30, 28, 27, 29, 31, 32, 33, 30, 29, 28)\n\n# Combine into a data frame\ndata <- data.frame(\n  group = factor(rep(c(\"CBT\", \"Placebo\"), each = 10)),\n  anxiety = c(CBT, Placebo)\n)\n\n# View the data\nprint(data)","options":{"label":"unnamed-chunk-4","message":"true","context":"interactive","editor-word-wrap":"true","out-width":"700px","editor-quick-suggestions":"false","dpi":72,"editor-max-height":"","comment":"","fig-cap":"","fig-height":5,"fig-width":7,"autorun":"false","output":"true","out-height":"","classes":"","warning":"true","read-only":"false","editor-font-scale":"1","results":"markup"},"id":4},{"code":"# Independent samples t-test\nt_test_results <- t.test(anxiety ~ group, data = data)\n\n# Display the results\nprint(t_test_results)","options":{"label":"unnamed-chunk-5","message":"true","context":"interactive","editor-word-wrap":"true","out-width":"700px","editor-quick-suggestions":"false","dpi":72,"editor-max-height":"","comment":"","fig-cap":"","fig-height":5,"fig-width":7,"autorun":"false","output":"true","out-height":"","classes":"","warning":"true","read-only":"false","editor-font-scale":"1","results":"markup"},"id":5}];
 
 </script>
 <script type="module">
@@ -1663,49 +1663,23 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-coursework-information">    
         <li>
-    <a class="dropdown-item" href="../Reading/coursework.html">
+    <a class="dropdown-item" href="../coursework/coursework.html">
  <span class="dropdown-text">Coursework for Research Methods PS52007D</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../Reading/courseworkCP.html">
+    <a class="dropdown-item" href="../coursework/courseworkCP.html">
  <span class="dropdown-text">Critical Proposal</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../Reading/courseworkMD.html">
+    <a class="dropdown-item" href="../coursework/courseworkMD.html">
  <span class="dropdown-text">Mini-Dissertation</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../Reading/courseworkCHIP.html">
+    <a class="dropdown-item" href="../coursework/courseworkCHIP.html">
  <span class="dropdown-text">CHIP Learning Log</span></a>
   </li>  
     </ul>
   </li>
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../schedule.html" aria-current="page"> 
-<span class="menu-text">Schedule</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../coursework.qmd"> 
-<span class="menu-text">Coursework Info</span></a>
-  </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-staff" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Staff</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-staff">    
-        <li>
-    <a class="dropdown-item" href="https://littlemonkeylab.github.io/">
- <span class="dropdown-text">Dr.&nbsp;Gordon Wright</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img" aria-label="GitHub">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -1936,12 +1910,53 @@ window.Quarto = {
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
- <span class="menu-text">DataSkills</span></a>
+ <span class="menu-text">Coursework</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../coursework/coursework.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Coursework for Research Methods PS52007D</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../coursework/courseworkCHIP.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CHIP Learning Log</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../coursework/courseworkCP.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Critical Proposal</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../coursework/courseworkMD.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mini-Dissertation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../coursework/rubrics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Rubrics</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">DataSkills</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../DataSkills/dataskills01.html" class="sidebar-item-text sidebar-link">
@@ -2066,13 +2081,13 @@ window.Quarto = {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
  <span class="menu-text">Reading</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../Reading/chapter01.html" class="sidebar-item-text sidebar-link">
@@ -2193,41 +2208,17 @@ window.Quarto = {
  <span class="menu-text">Chapter 20: A review of the year and what you have achieved</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../Reading/coursework.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Coursework for Research Methods PS52007D</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../Reading/courseworkCHIP.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">CHIP Learning Log</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../Reading/courseworkCP.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Critical Proposal</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../Reading/courseworkMD.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Mini-Dissertation</span></a>
-  </div>
-</li>
       </ul>
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false">
  <span class="menu-text">Week00</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../week00/chapter.html" class="sidebar-item-text sidebar-link">
@@ -2268,13 +2259,13 @@ window.Quarto = {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true">
  <span class="menu-text">Week01</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../week01/06-ttests.html" class="sidebar-item-text sidebar-link">
@@ -2309,13 +2300,13 @@ window.Quarto = {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false">
  <span class="menu-text">Week02</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../week02/chapter.html" class="sidebar-item-text sidebar-link">
@@ -2356,13 +2347,13 @@ window.Quarto = {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false">
  <span class="menu-text">Week03</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../week03/chapter.html" class="sidebar-item-text sidebar-link">
@@ -2385,13 +2376,13 @@ window.Quarto = {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false">
  <span class="menu-text">Week04</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../week04/chapter.html" class="sidebar-item-text sidebar-link">
@@ -2972,7 +2963,7 @@ library(countdown)
 countdown(minutes = 0, seconds = 15)
 ``` -->
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Result</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Interactive</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Result</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Interactive</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <details class="code-fold">
@@ -5435,11 +5426,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
-          // target, if specified
-          link.setAttribute("target", "_blank");
-          if (link.getAttribute("rel") === null) {
-            link.setAttribute("rel", "noopener");
-          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

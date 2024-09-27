@@ -1,0 +1,273 @@
+---
+title: Mini-Dissertation
+subtitle: Detailed Guidance 2024/5
+date: 09/23/2024
+author: Dr. Gordon Wright
+categories: coursework
+format: 
+  pdf: default
+  html: default
+---
+
+# Detailed Mini-Dissertation Briefing
+
+## Overview
+
+The Mini-Dissertation is an integral part of your academic journey,
+contributing **70%** of your module grade. It mirrors the structure of
+an APA lab report, similar to the reports you completed last year.
+However, in this task, nothing is pre-packaged – you and your group will
+make all the research decisions, with support from your teaching team,
+lab tutors, and personal tutors.
+
+### Key Parameters:
+
+-   **Duration**: 20 weeks.
+-   **Group work**: You will be working in a group of 3 or 4 students,
+    with each student researching a separate combination of IVs and DV.
+-   **Focus**: The project will require you to design and conduct an
+    original psychological experiment.
+
+------------------------------------------------------------------------
+
+## Project Components
+
+### 1. **Identify an Area of Psychological Research**
+
+Your first task is to select an area of research that interests you or
+you think important - but this could be anything at all. There is no
+right answer. This could be drawn from your past studies (Extended Essay
+or Research Participation Scheme/Practical Issues module with Tegan and
+staff last year), ongoing debates in psychology, or gaps in the
+literature. You'll need to ensure that this area lends itself to an
+**quantitative approach** (using a 2x2 ANOVA design) and that it's
+feasible within the timeframe and resources available. Your Lab-Tutor
+(and extended support team) want to help you with this!
+
+**Action point**:\
+Explore journal articles or speak with your teaching team to help narrow
+down a research domain. Seek feedback from your lab tutors to confirm
+that the chosen area is appropriate.
+
+------------------------------------------------------------------------
+
+### 2. **Literature Search and Critique**
+
+Once you’ve identified your research area, you will conduct a
+**literature search and critique**. This involves identifying relevant
+studies, reading some of them to varying levels of detail, critiquing
+their methodologies, and discussing how your project will build upon or
+diverge from the existing research.
+
+**Tip for the top**: Your Mini-Dissertation project will require you to
+read a number of journal articles and text-books will not be terribly
+useful. It is wise to aim to improve how you find and read journal
+articles to get the most out of the process with least cost in terms of
+time and stress. Being organised and strategic is key.
+
+**Resources**:\
+Make use of the readings provided in your modules, exploit all the tools
+we identify in the labs, and use the library wisely. Consider this one
+of the most important skills you will develop. Please make sure that you
+learn to identify, and use, credible, peer-reviewed journal articles as
+evidence in your Mini-Dissertation (and in your Critical Proposal).
+
+------------------------------------------------------------------------
+
+### 3. **Design a 2x2 ANOVA Experiment**
+
+Your individual part of the group study must follow a **2x2 factorial
+design**, where you have two independent variables (IVs), each with two
+levels. This will allow for the examination of main effects and
+interaction effects between the variables. Importantly, your design
+should be **unique** within your group, but it is absolutely fine for
+groups to work on similar topics. You will be given plenty of support to
+get to this point.
+
+**It is common when reading this in week 1, to find this unclear and
+intimidating** Please do not despair, there are MANY aspects of this
+process that will become clear only once you do it. Consider this an
+opportunity to impress yourself once you overcome this initial
+confusion. Your lab-tutors have done this loads, and it's the same every
+year. Hang loose and trust us!
+
+**Considerations**: - This is Research **Methods** and so always be
+thinking about the methods you are using and the merit of them How will
+you operationalize each variable? Does it sound accurrate and
+reliable? - What tools or resources will you need for data collection if
+you choose to use this method?
+
+**Tip for the top**:\
+Do not get hung up on the design in the early stages of the term. Just
+look for a topic that interests your group, read around and see what
+methods are used and what we already know. Design & Analysis will
+introduce ANOVAs more. Gordon will demonstrate ANOVAs and you will see
+examples in the coming weeks. It's not critical to understand this until
+the second half of term 1, but you can engage with figuring it out
+yourself using the resources we provide if you wish.
+
+------------------------------------------------------------------------
+
+### 4. **Develop a Testable Hypothesis**
+
+Your hypothesis must be based on the literature you’ve reviewed
+(otherwise it will be difficult to make a sensible introduction to your
+Mini-Dissertation) and should clearly state **what you expect to find**
+in your 2x2 ANOVA. There are going to be up to three hypotheses you
+might have in your study, so keep notes about what predict will happen
+as you go along.
+
+**Example Hypotheses**:\
+You will each have a 2x2 ANOVA design, meaning you will have a so-called
+'main effect' of IV1 and a 'main effect' of IV2, and a possible
+'interaction'. Pop a pin in those for now, but we cover this in detail
+in the coming weeks in both Research Methods AND Design & Analysis.
+
+------------------------------------------------------------------------
+
+### 5. **Ethical Approval**
+
+Before any data collection, you will need to secure **Ethical
+Approval**. This involves submitting an ethics proposal outlining your
+study design, recruitment methods, data handling procedures, and how you
+will safeguard participant welfare.
+
+**Signpost**:\
+Work closely with your lab tutor to ensure that your ethics submission
+is thorough. Templates and guidance is available, and students should
+adhere to College guidelines on ethical research practices. This is a
+crucial dry-run for your Y3 Dissertation, where you will do this on your
+own. This year, Ethical Approval is expected to take a week. In Y3 it
+will take about a fortnight, so it's something to plan for and to
+recognise will never be something that can be rushed.
+
+------------------------------------------------------------------------
+
+### 6. **Data Collection**
+
+You will be required to collect **REAL data** for your experiment. This
+will involve recruiting participants, administering your experimental
+manipulations, and ensuring data is collected in a controlled, valid,
+and reliable manner.
+
+**Key Tips**: Never start collecting data without trying everything out
+and checking it works. Every year somebody only finds out their
+data-collection didn't work as expected after they have spent a long
+time recruiting and/or running the study. It's heartbreaking. But not a
+problem this year. We have safeguards in place. But next year... It
+might not be as simple.
+
+------------------------------------------------------------------------
+
+### 7. **Data Analysis: Conduct a 2x2 ANOVA**
+
+Once the data are collected, you will conduct a **2x2 ANOVA** to test
+for main effects and interaction effects. This statistical analysis is
+essential to your Mini-Dissertation, so it’s important to understand the
+process. You will all do exactly this analysis (taught in weeks 8-10 of
+Design & Analysis). This will include Descriptive Statistics, Assumption
+Testing, Tables, Figures, Inferential Statistivs (one of the 3 flavours
+of ANOVA) with APA format narrative reporting of the results and
+post-hoc tests as necessary.
+
+**Stats Anxiety**:\
+It is common that people will over-estimate the complexity of the data
+analysis phase of this project. It is also common that people will avoid
+thinking about it and hope it doesn't happen. It will. But here's the
+good news. We know the analysis you need to do and start paving the way
+early on. It's a focus of the second half of term 1 in Design &
+Analysis, and we give detailed support too. We even give support to do
+it using tools other than SPSS, should you wish. And it only usually
+takes the lab session in week 17 to do. And as with all other parts of
+this project, you can show your Lab-Tutor and get help all the way
+through the process in the labs designated for that activity. By getting
+anxious, you will likely avoid the tips and support we give about this,
+and fret about something that takes about 2 hours to do in total. But we
+understand. We've been there too.
+
+------------------------------------------------------------------------
+
+### 8. **Write the APA Report**
+
+Your report must be written in **APA format** and should not exceed
+2,500 words (from the first word of the title to the last word of the
+Discussion). You should include the following sections:
+
+-   **Title Page**
+-   **Abstract** (150-250 words - this is part of the 2,500 word
+    allowance)
+-   **Introduction**: Summarize your literature review, state your
+    hypotheses, and justify the research.
+-   **Method**: Describe the participants, materials, procedure, and
+    design in detail.
+-   **Results**: Descriptives and Assumption testing, then Present your
+    2x2 ANOVA analysis, report the main effects and interactions, and
+    include post-hoc tests if necessary.Don't forget figures and tables
+    as necessary.
+-   **Discussion**: Interpret your findings, link back to the
+    literature, and suggest implications for future research.
+-   **References**: APA-style references of the works cited.
+
+------------------------------------------------------------------------
+
+### 9. **Supporting Materials**
+
+Along with your report, you must submit the following materials: -
+**Open Data**: The raw data you collected, anonymised where necessary. -
+**Open Materials**: Any instruments, surveys, or stimuli used in your
+experiment. Aim to allow perfect replication - **Critical Reflection**
+(±200 words not included in 2,500 word limit of report - and you can
+write more if you wish): A brief statement reflecting on the
+decision-making process, challenges, and any adjustments that were made
+during the project. How do you feel at point of submission? How do you
+feel about next year?
+
+------------------------------------------------------------------------
+
+## Key Tips for Success
+
+-   **Attendance**: Active participation in all group meetings and lab
+    sessions is crucial.
+-   **Collaboration**: Work closely with your group members, but
+    remember, the final write-up and some elements must be your
+    individual work.
+-   **Paperwork**: Keep a record of your work. Consider this part of the
+    project. It's going to be too much to keep in memory alone, and if
+    you find a cool paper, or a piece of information you want to use in
+    the write-up, it's not uncommon for it to hide when you need it
+    most. Naughty, naughty.
+-   **Reflection**: Keep a reflective diary of decisions made,
+    challenges faced, and changes in your understanding. You will thank
+    yourself when it comes to the Compulsory Reflective Account and the
+    CHIP elements, which are this!
+-   **Confidence**: Mistakes are expected! The teaching team will not
+    penalize you for decisions that may seem 'sub-optimal' in retrospect
+    (shows you are learning!). Penalties come from not doing the things
+    we encourage or following the advice/guidelines, or just getting
+    behind and losing track of what your group is doing.
+
+------------------------------------------------------------------------
+
+## Final Thoughts
+
+The Mini-Dissertation represents the culmination of the skills you’ve
+developed over the past year. While it may seem challenging, the
+extensive support materials and guidance provided are designed to help
+you every step of the way. The key to success is active engagement –
+from group discussions to lab sessions, don’t hesitate to ask for help
+when needed.
+
+Hundreds of students have done exactly this before you. The overwhelming
+majority have even ended up saying they found it useful and not at all
+as scary as they thought. Some even said they enjoyed it. But when you
+exclude the people who fail by dint of non-attendance, and even the
+people who pass but just miss out important bits because they didn't
+listen, or left it too late, this module will often be your highest
+mark. It will be the springboard to your 45 credit Final Year
+Dissertation, where a good mark can really boost your final degree. And
+the skills you learn here are worth a fortune. Just you wait, years from
+now, when you least expect it, you'll unleash your critical faculties,
+dive into some data, or just generally science the s\*\*t out of
+something, and you'll mutter to yourself "Thank you, Team RM!"
+
+You are very welcome. Smash it!
